@@ -1,0 +1,17 @@
+AddDefaultCharset utf-8
+Options -Indexes
+RewriteEngine on
+
+# Is not a file or a directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect to index.php
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+# Gzip
+<IfModule mod_deflate.c>
+  <FilesMatch "\.(css|htm|html|xhtml|js|php|txt|xml)$">
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+</IfModule>
