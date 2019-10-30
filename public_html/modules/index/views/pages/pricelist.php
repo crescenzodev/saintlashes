@@ -1,33 +1,90 @@
-<h2>About</h2>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non risus sollicitudin, euismod nisl a, commodo tortor.
-  Suspendisse potenti. Morbi faucibus est a nulla auctor tincidunt. Vivamus in mollis tortor.
-  Cras lacus elit, finibus sed lorem congue, vestibulum pellentesque sem. Nam fermentum ullamcorper orci, a tempus enim accumsan sit amet.
-  Aliquam sapien tortor, aliquet ac odio ut, molestie fringilla elit. Proin aliquet sodales leo, et posuere odio sagittis ac.
-  Aenean pulvinar malesuada sollicitudin. Vivamus id tellus risus. Cras scelerisque hendrerit iaculis. Morbi tincidunt efficitur hendrerit.
-  Curabitur sit amet vehicula tortor. Donec vel tortor ac justo euismod varius. Fusce at aliquam erat, at ultrices massa.</p>
-
-<p>Aliquam sed blandit enim, eu pharetra elit. Vestibulum est urna, accumsan et finibus sed, consectetur at turpis.
-  Vivamus ut tortor euismod, accumsan nisi eu, suscipit sapien. Fusce tortor ligula, dignissim nec ullamcorper id, blandit eget quam.
-  Proin rutrum ante id ligula maximus, ac volutpat purus mattis. Ut pharetra ut risus sed pharetra.
-  Pellentesque lacinia blandit est, quis malesuada nisi viverra quis. Cras ornare consequat augue, a tincidunt dolor maximus vitae. Morbi sed sagittis velit.
-  Nulla gravida mauris tellus, et pellentesque augue luctus eget. Nulla faucibus massa nisl, vel efficitur velit vulputate non.</p>
-
-<p>Aliquam erat volutpat. Nam quis ornare quam, ut cursus ante. Donec quis dictum enim. Fusce tempus nibh non tortor rutrum, a mollis orci scelerisque.
-  Donec tincidunt, felis id vestibulum vulputate, sapien ipsum semper nisl, a hendrerit ante nisi facilisis eros.
-  Vivamus ac tellus varius, ornare nulla ac, porttitor risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-  Vivamus quis nisi elit.</p>
-
-<p>Nam sed ultrices mauris, et aliquet ex. In hac habitasse platea dictumst. Vestibulum ultricies a elit sed facilisis.
-  Donec non magna nunc. Duis egestas cursus tempus. Nunc semper sit amet erat non molestie. Nullam condimentum mauris nisl, placerat feugiat sapien convallis id.
-  Nullam ipsum ante, malesuada in tempor id, sagittis et orci. Vestibulum nec gravida turpis.
-  Vestibulum non varius nulla, vel pellentesque est. Suspendisse eu finibus diam. Sed varius elit a massa lacinia, vel consequat purus condimentum.
-  Praesent luctus congue dolor eu ornare.</p>
-
-<p>Quisque molestie nisl et sem ultricies, in aliquet sem placerat. Etiam ac ipsum imperdiet, suscipit ex ut, ultrices dui.
-  Quisque gravida metus in neque elementum pretium a quis dui. Suspendisse lacinia libero enim, vitae sodales purus tincidunt in.
-  Etiam dignissim elit quam, sed fringilla diam luctus et. Vivamus et ullamcorper ligula, in aliquet mauris. Etiam eget sagittis eros, non tincidunt leo.
-  Etiam eu velit tellus. Suspendisse ac orci orci. Fusce porttitor enim arcu, sit amet ultrices magna tincidunt sit amet.
-  Maecenas id diam scelerisque, scelerisque neque id, consectetur dolor. Fusce eget justo lacinia mauris luctus tincidunt.
-  Quisque sit amet vestibulum ipsum. Proin nibh orci, aliquam at semper et, convallis sed enim.
-  Praesent auctor hendrerit justo, ut suscipit est porta non.</p>
+<h2>Our Pricelist</h2>
+<p class="my-4">
+  Please find the services that we offer below.
+</p>
+<hr />
+<h2 class="my-4">Classic Lashes</h2>
+<p>A full set of individual lashes. A natural look, perfect for first timers.</p>
+<div class="row">
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">Before</p>
+    <img src="/public/images/pricelist/before.jpg" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <p class="price">Full &pound;50</p>
+    <p class="price">Infills &pound;35</p>
+  </div>
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">After</p>
+    <img src="/public/images/pricelist/after.jpg" />
+  </div>
+</div>
+<hr />
+<h2 class="my-4">Hybrid</h2>
+<p>A mixed set of classic individuals and volume fans.</p>
+<div class="row">
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">Before</p>
+    <img src="/public/images/pricelist/before.jpg" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <p class="price">Full &pound;55</p>
+    <p class="price">Infills &pound;35</p>
+  </div>
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">After</p>
+    <img src="/public/images/pricelist/after.jpg" />
+  </div>
+</div>
+<hr />
+<h2 class="my-4">Russian Volume</h2>
+<p>If you prefer a more dramatic look, Russian volume is the way to go.</p>
+<div class="row">
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">Before</p>
+    <img src="/public/images/pricelist/before.jpg" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <p class="price">Full &pound;60</p>
+    <p class="price">Infills &pound;40</p>
+  </div>
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">After</p>
+    <img src="/public/images/pricelist/after.jpg" />
+  </div>
+</div>
+<hr />
+<h2 class="my-4">Mega Volume</h2>
+<p>Ultimate fullness and density. A thinner diameter of lash is used in comparison to other styles.</p>
+<div class="row">
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">Before</p>
+    <img src="/public/images/pricelist/before.jpg" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <p class="price">Full &pound;70</p>
+    <p class="price">Infills &pound;50</p>
+  </div>
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">After</p>
+    <img src="/public/images/pricelist/after.jpg" />
+  </div>
+</div>
+<hr />
+<h2 class="my-4">Saint Strip Lashes</h2>
+<p>We can customise individual lash extensions to recreate the look of any strip lashes that you like.</p>
+<p>Simply bring them in or show a picture and our skilled technicians will achieve your desired look.</p>
+<div class="row">
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">Before</p>
+    <img src="/public/images/pricelist/before.jpg" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <p class="price">Full &pound;90</p>
+    <p class="price">Infills &pound;70</p>
+  </div>
+  <div class="col-sm-5 text-center">
+    <p class="font-italic">After</p>
+    <img src="/public/images/pricelist/after.jpg" />
+  </div>
+</div>

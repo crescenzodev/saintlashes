@@ -12,14 +12,14 @@ class PagesController extends Controller {
     $this->view->bodyID = 'index';
   }
 
-  public function aboutAction() {
-
-    $this->view->title = 'About Us';
-  }
-
   public function contactAction() {
 
     $this->view->title = 'Contact';
+  }
+
+  public function contactPost() {
+
+    $this->response->redirect('/contact', 'sent=true');
   }
 
   public function faqAction() {
