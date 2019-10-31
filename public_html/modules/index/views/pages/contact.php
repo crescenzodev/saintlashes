@@ -10,7 +10,13 @@ if ($this->request->getQuery('sent')) {
   <?
 }
 ?>
-<div class="row">
+
+<h2 class="my-2">Where We Are</h2>
+<p class="my-4">We offer free parking at our location shown on the map below.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.328239485166!2d-1.1988803835127597!3d52.617912236719775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48775e05be51ed5b%3A0x89090112a0afb931!2sDarien%20Way%2C%20Leicester!5e0!3m2!1sen!2suk!4v1572390649231!5m2!1sen!2suk"
+        width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+<div class="row mt-4">
   <div class="col-sm-6">
     <h2>Contact Us</h2>
     <p class="my-4">Feel free to use the contact form below to get in touch.</p>
@@ -26,8 +32,3 @@ if ($this->request->getQuery('sent')) {
     <p>Here at Saint Lashes we would love to hear from you. Please <a href="mailto:contact@saintlashes.com">email us</a> if you have any questions, concerns or queries.</p>
   </div>
 </div>
-
-<h2 class="my-2">Where We Are</h2>
-<p class="my-4">We offer free parking at our location shown on the map below.</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.328239485166!2d-1.1988803835127597!3d52.617912236719775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48775e05be51ed5b%3A0x89090112a0afb931!2sDarien%20Way%2C%20Leicester!5e0!3m2!1sen!2suk!4v1572390649231!5m2!1sen!2suk"
-        width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
