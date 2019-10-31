@@ -128,7 +128,7 @@ $router
   ]);
 
 $router
-  ->addRoute('pages', '(<action>(/<id>))')
+  ->addRoute('pages', '(<action>)')
   ->setDefaults([
     'module' => 'index',
     'controller' => 'pages',
