@@ -65,13 +65,13 @@ class View {
   public function setView($filename) {
 
     // Set the view paths
-    $this->renderPaths[self::RENDER_ACTION] = $this->dispatcher->getModuleName() .
-        '/views/' . $this->dispatcher->getBaseControllerName() . '/' . $filename;
+    $this->renderPaths[self::RENDER_ACTION] = strtolower($this->dispatcher->getModuleName()) .
+        '/views/' . strtolower($this->dispatcher->getBaseControllerName()) . '/' . $filename;
 
-    $this->renderPaths[self::RENDER_CONTROLLER] = $this->dispatcher->getModuleName() .
-        '/views/' . $this->dispatcher->getBaseControllerName() . '/main.tmp';
+    $this->renderPaths[self::RENDER_CONTROLLER] = strtolower($this->dispatcher->getModuleName()) .
+        '/views/' . strtolower($this->dispatcher->getBaseControllerName()) . '/main.tmp';
 
-    $this->renderPaths[self::RENDER_MODULE] = $this->dispatcher->getModuleName() . '/views/main.tmp';
+    $this->renderPaths[self::RENDER_MODULE] = strtolower($this->dispatcher->getModuleName()) . '/views/main.tmp';
   }
 
   public function setRenderLevel($renderLevel) {
