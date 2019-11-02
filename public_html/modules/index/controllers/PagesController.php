@@ -14,13 +14,20 @@ class PagesController extends Controller {
 
   public function indexPost() {
 
+    $email = 'contact@saintlashes.com';
+
     $subject =
         filter_var($this->request->getPost('name'), FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
     $message =
         filter_var($this->request->getPost('message'), FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-    mail('contact@saintlashes.com', $subject, $message);
+    $headers =
+        'From: ' . $email . ' ' .
+        'Reply-To: ' . $email . ' ' .
+        'X-Mailer: PHP/' . phpversion();
+
+    mail('contact@saintlashes.com', $subject, $message, $headers);
     $this->response->redirect('/', 'sent=true');
   }
 

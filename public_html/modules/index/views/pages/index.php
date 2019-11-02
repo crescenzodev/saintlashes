@@ -32,7 +32,7 @@ if ($this->request->getQuery('sent')) {
     <form class="my-2" method="post" action="">
       <input class="form-control" type="email" name="email" placeholder="Your Email&hellip;" required />
       <input class="form-control mt-3" type="text" name="name" placeholder="Your Name&hellip;" required />
-      <textarea class="form-control mt-3" name="message" rows="8" placeholder="Your Message&hellip;"></textarea>
+      <textarea class="form-control mt-3" name="message" rows="8" placeholder="Your Message&hellip;" required></textarea>
       <button class="btn btn-nude mt-3">Send Message</button>
     </form>
   </div>
