@@ -1,59 +1,44 @@
-<h2 class="font-italic text-center my-4">
-  10% off for first time customers<br /><br />
-  Refer a friend and get 15% off your next set<br /><br />
-  Loyalty cards available to all customers</h2>
+<?
+if ($this->request->getQuery('sent')) {
+  ?>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Thank You!</strong> We have received your message and will be in touch shortly.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <?
+}
+?>
 
-<div id="slider">
-  <div>
-    <img src="/public/images/slider/0.jpg" />
+<div id="intro" class="mx-auto w-50 text-center">
+  <p class="m-0">
+    Premium eyelash studio in Leicester
+  </p>
+  <p class="m-0">
+    Providing high quality lash extensions in a luxurious and confortable surrounding
+  </p>
+</div>
+
+<h2 class="text-center mt-4 mb-2">Where We Are</h2>
+<p class="text-center my-2">We offer free parking at our location shown on the map below.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.328239485166!2d-1.1988803835127597!3d52.617912236719775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48775e05be51ed5b%3A0x89090112a0afb931!2sDarien%20Way%2C%20Leicester!5e0!3m2!1sen!2suk!4v1572390649231!5m2!1sen!2suk"
+        width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" class="my-4"></iframe>
+
+<div class="row my-1">
+  <div class="col-sm-6">
+    <h2 class="my-1">Contact Us</h2>
+    <p class="my-2">Feel free to use the contact form below to get in touch.</p>
+    <form class="my-2" method="post" action="">
+      <input class="form-control" type="email" name="email" placeholder="Your Email&hellip;" required />
+      <input class="form-control mt-3" type="text" name="name" placeholder="Your Name&hellip;" required />
+      <textarea class="form-control mt-3" name="message" rows="8" placeholder="Your Message&hellip;"></textarea>
+      <button class="btn btn-nude mt-3">Send Message</button>
+    </form>
   </div>
-  <div>
-    <img src="/public/images/slider/1.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/2.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/3.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/4.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/5.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/6.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/7.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/8.jpg" />
-  </div>
-  <div>
-    <img src="/public/images/slider/9.jpg" />
+  <div class="col-sm-6">
+    <h2 class="my-1">Email Us</h2>
+    <p>Here at Saint Lashes we would love to hear from you. Please <a href="mailto:contact@saintlashes.com">email us</a> if you have any questions, concerns or queries.</p>
   </div>
 </div>
 
-<div class="mx-auto w-50">
-  <p class="font-italic text-center">
-    Saint Lashes brings a piece of heaven on earth.
-  </p>
-  <p class="font-italic text-center">
-    Come and relax in the luxury lash studio where you can unwind while a
-    skilled and experienced technician will customise your eyelashes to the look that you desire.
-  </p>
-  <p class="font-italic text-center mt-4">
-    Trends are forever changing but the world's most complimented feature, the eyes, is something which will never change.
-  </p>
-  <p class="font-italic text-center">
-    This is why we pride ourselves in the work that we do, knowing that our customers leave looking glamorous as well as satisfied.
-  </p>
-  <p class="font-italic text-center mt-4">
-    We <strong>only</strong> specialise in lash extensions, making us experts in what we do.
-  </p>
-  <p class="font-italic text-center">
-    Become a member of the Saint family and feel confidently refreshed.
-  </p>
-</div>

@@ -12,14 +12,21 @@ class PagesController extends Controller {
     $this->view->bodyID = 'index';
   }
 
-  public function contactAction() {
+  public function indexPost() {
 
-    $this->view->title = 'Contact';
+    $subject =
+        filter_var($this->request->getPost('name'), FILTER_SANITIZE_RAW, FILTER_FLAG_ENCODE_HIGH);
+
+    $message =
+        filter_var($this->request->getPost('message'), FILTER_SANITIZE_RAW, FILTER_FLAG_ENCODE_HIGH);
+
+    mail('contact@saintlashes.com', $subject, $message);
+    $this->response->redirect('/', 'sent=true');
   }
 
-  public function contactPost() {
+  public function aboutAction() {
 
-    $this->response->redirect('/contact', 'sent=true');
+    $this->view->title = 'About';
   }
 
   public function faqAction() {

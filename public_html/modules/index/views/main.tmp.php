@@ -17,32 +17,47 @@
 
   <header>
     <div class="container-fluid">
-      <ul class="float-right list-unstyled">
-        <li><a href="<?= $this->url('main', ['action' => 'pricelist']) ?>">Price List</a></li>
-        <li><a href="<?= $this->url('main', ['action' => 'contact']) ?>">Contact</a></li>
-      </ul>
-      <h1><a href="<?= $this->url('main') ?>">Saint Lashes</a></h1>
+      <p class="m-0 p-0">
+        10% off for first time customers &bull;
+        Refer a friend and get 15% off your next set &bull;
+        Loyalty cards available to all customers
+      </p>
+      <p class="my-1">
+        <a href="<?= $this->url('main') ?>">Home</a> &vert;
+        <a href="<?= $this->url('main', ['action' => 'pricelist']) ?>">Price List</a> &vert;
+        <a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a> &vert;
+        <a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a>
+      </p>
     </div>
   </header>
+
+  <div id="header" class="container-fluid text-center">
+
+    <a id="logo" href="<?= $this->url('main') ?>">
+      <img class="img-fluid" src="/public/images/logo75.png" /><br />
+      Saint <span class="text-dark font-weight-light">Lashes</span>
+    </a>
+
+  </div>
 
   <div id="main" class="container-fluid">
     <?= $this->getOutput() ?>
   </div>
-  <footer class="fixed-bottom">
+  <footer>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
           <p class="small"><?= date('Y') ?> &copy; Saint Lashes</p>
         </div>
-        <div class="col-sm-4">
-          <ul class="list-unstyled w-50 mx-auto">
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled">
             <li><a href="<?= $this->url('main', ['action' => 'pricelist']) ?>">Price List</a></li>
-            <li><a href="<?= $this->url('main', ['action' => 'contact']) ?>">Contact</a></li>
+            <li><a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a></li>
             <li><a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a></li>
           </ul>
         </div>
-        <div class="col-sm-4">
-          <ul class="float-right list-unstyled">
+        <div class="col-sm-4 text-center">
+          <ul class="list-unstyled">
             <li>
               <a target="_blank" href="https://instagram.com/saintlashesuk">
                 <img src="/public/images/instagram.png" />

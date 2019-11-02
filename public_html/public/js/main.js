@@ -2,6 +2,7 @@ $(function() {
 
   $('#slider').slick({
     autoplay: true,
-    dots: true
+    dots: true,
+    centerMode: true
   });
 });
