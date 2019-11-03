@@ -16,7 +16,7 @@ if ($this->request->getQuery('sent')) {
     Premium eyelash studio in Leicester
   </p>
   <p class="m-0">
-    Providing high quality lash extensions in a luxurious and confortable surrounding
+    providing high quality lash extensions in a luxurious and comfortable surrounding
   </p>
 </div>
 
