@@ -17,15 +17,15 @@
 
   <header>
     <div class="container-fluid">
-      <p class="m-0 p-0">
-        10% off for first time customers &bull;
+      <p class="m-0 p-0 font-italic">
+        10% off for first time clients &bull;
         Refer a friend and get 15% off your next set &bull;
-        Loyalty cards available to all customers
+        Loyalty cards available
       </p>
       <p class="my-1">
         <a href="<?= $this->url('main') ?>">Home</a> &vert;
-        <a href="<?= $this->url('main', ['action' => 'pricelist']) ?>">Price List</a> &vert;
         <a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a> &vert;
+        <a href="<?= $this->url('main', ['action' => 'services']) ?>">Services</a> &vert;
         <a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a>
       </p>
     </div>
@@ -34,8 +34,8 @@
   <div id="header" class="container-fluid text-center">
 
     <a id="logo" href="<?= $this->url('main') ?>">
-      <img class="img-fluid" src="/public/images/logo75.png" /><br />
-      Saint <span class="text-dark font-weight-light">Lashes</span>
+<!--      <img class="img-fluid" src="/public/images/logo75.png" /><br />-->
+      SAINT<br /><span class="text-dark font-weight-light">LASHES</span>
     </a>
 
   </div>
@@ -50,11 +50,11 @@
           <p class="small"><?= date('Y') ?> &copy; Saint Lashes</p>
         </div>
         <div class="col-sm-4 text-center">
-          <ul class="list-unstyled">
-            <li><a href="<?= $this->url('main', ['action' => 'pricelist']) ?>">Price List</a></li>
-            <li><a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a></li>
-            <li><a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a></li>
-          </ul>
+          <p>
+            <a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a> &vert;
+            <a href="<?= $this->url('main', ['action' => 'services']) ?>">Services</a> &vert;
+            <a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a>
+          </p>
         </div>
         <div class="col-sm-4 text-center">
           <ul class="list-unstyled">

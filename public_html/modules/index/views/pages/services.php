@@ -1,19 +1,17 @@
 <div class="container">
-  <h2>Our Pricelist</h2>
+  <h2>Service Menu</h2>
   <hr />
   <h3 class="my-2">Classic Lashes</h3>
-  <p>A full set of individual lashes. A natural look, perfect for first timers.</p>
   <div class="row">
-    <div class="col-sm-4 text-center my-auto">
-      <p class="price m-0">Full &pound;50<br />Infills &pound;35</p>
+    <div class="col-sm-6 my-auto">
+      <p>A full set of individual lashes. A natural look, perfect for first timers.
+        A full set of individual lashes. A natural look, perfect for first timers.
+        A full set of individual lashes. A natural look, perfect for first timers.
+        A full set of individual lashes. A natural look, perfect for first timers.</p>
+      <p class="price m-0">Full Set &pound;50<br />Infills &pound;35</p>
     </div>
-    <div class="col-sm-4 text-center">
-      <p class="font-italic">Before</p>
-      <img class="img-fluid" src="/public/images/pricelist/before.jpg" width="286" height="177" />
-    </div>
-    <div class="col-sm-4 text-center">
-      <p class="font-italic">After</p>
-      <img class="img-fluid" src="/public/images/pricelist/after.jpg" width="286" height="177" />
+    <div class="col-sm-6 text-center">
+      <img class="img-fluid" src="/public/images/pricelist/after.jpg" width="400" height="225" />
     </div>
   </div>
   <hr />

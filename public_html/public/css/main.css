@@ -1,9 +1,9 @@
 header {
-  background: #ebc8b2; padding: 8px 0; text-align: center;
+  background: #f7d7e3; padding: 8px 0; text-align: center;
 }
 
 footer {
-  background: #ebc8b2; padding: 20px 0 10px 0;
+  background: #f7d7e3; padding: 20px 0 10px 0;
 }
 
 h2, h3 {
@@ -11,15 +11,19 @@ h2, h3 {
 }
 
 #header {
-  margin: 20px 0;
+  margin: 20px 0 0 0; padding: 20px 0;
 }
 
 #logo {
-  text-decoration: none; color: #ebc8b2; font-size: 55px; line-height: 10px;
+  text-decoration: none; color: #f7d7e3; font-size: 85px; line-height: 20px;
+}
+
+#logo span {
+  font-size: 55px;
 }
 
 #main {
-  background: linear-gradient(175deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 100%), url('../images/indexBg.jpg') center center no-repeat fixed;
+  background: linear-gradient(175deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 75%), url('../images/indexBg.jpg') center center no-repeat fixed;
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -38,20 +42,24 @@ h2, h3 {
 }
 
 .btn-nude {
-  background: #ebc8b2;
+  background: #f7d7e3;
 }
 
 .btn-nude:hover {
-  background: #fbc8b2;
+  background: #f7d7e3;
+}
+
+a {
+  color: #fff;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none; color: #000;
 }
 
 #slider div { text-align: center; }
 #slider img { margin: auto; }
 
 .slick-prev:before, .slick-next:before {
-  color: #fbc8b2;
+  color: #f7d7e3;
 }

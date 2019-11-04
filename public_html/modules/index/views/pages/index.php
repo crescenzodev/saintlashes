@@ -20,15 +20,16 @@ if ($this->request->getQuery('sent')) {
   </p>
 </div>
 
-<h2 class="text-center mt-4 mb-2">Where We Are</h2>
-<p class="text-center my-2">We offer free parking at our location shown on the map below.</p>
+<div style="height: 500px;"></div>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.328239485166!2d-1.1988803835127597!3d52.617912236719775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48775e05be51ed5b%3A0x89090112a0afb931!2sDarien%20Way%2C%20Leicester!5e0!3m2!1sen!2suk!4v1572390649231!5m2!1sen!2suk"
-        width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" class="my-4"></iframe>
+        width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" class="mt-4"></iframe>
+<p class="mb-2">We offer free parking at our location shown on the map below.</p>
 
 <div class="row my-1">
   <div class="col-sm-6">
     <h2 class="my-1">Contact Us</h2>
-    <p class="my-2">Feel free to use the contact form below to get in touch.</p>
+    <hr />
     <form class="my-2" method="post" action="">
       <input class="form-control" type="email" name="email" placeholder="Your Email&hellip;" required />
       <input class="form-control mt-3" type="text" name="name" placeholder="Your Name&hellip;" required />
@@ -38,7 +39,43 @@ if ($this->request->getQuery('sent')) {
   </div>
   <div class="col-sm-6">
     <h2 class="my-1">Email Us</h2>
-    <p>Here at Saint Lashes we would love to hear from you. Please <a href="mailto:contact@saintlashes.com">email us</a> if you have any questions, concerns or queries.</p>
+    <hr />
+    <p>Drop us an email at <a class="text-primary" href="mailto:contact@saintlashes.com">contact@saintlashes.com</a> with any queries or call us on
+      <a class="text-primary" href="tel:07309300204">07309 300204</a>.</p>
+  </div>
+</div>
+
+<div class="row my-1">
+  <div class="col-sm-4">
+    <h3 class="my-2">Cancellation Policy</h3>
+    <hr />
+    <p class="my-2">
+      You are able to cancel or reschedule your appointment upto 24 hours before it is expected to take place.
+    </p>
+    <p class="my-2">
+      If cancelled after this deposits are non refundable.
+    </p>
+  </div>
+  <div class="col-sm-4">
+    <h3 class="my-2">Deposits Policy</h3>
+    <hr />
+    <p class="my-2">
+      A deposit of &pound;20 is required prior to your first treatment if you are a new customer.
+    </p>
+    <p class="my-2">
+      This is needed for the cost of your desired eyelashes.
+    </p>
+  </div>
+  <div class="col-sm-4">
+    <h3 class="my-2">Refunds Policy</h3>
+    <hr />
+    <p class="my-2">
+      Here at Saint Lashes we do not offer refunds.
+    </p>
+    <p class="my-2">
+      We do however, offer a 3 day grade period where if you are not
+      happy with the service you have received we will gladly do what we can to put things right.
+    </p>
   </div>
 </div>
 

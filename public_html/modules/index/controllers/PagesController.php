@@ -24,7 +24,7 @@ class PagesController extends Controller {
 
     $headers =
         'From: ' . $email . ' ' .
-        'Reply-To: ' . $email . ' ' .
+        'Reply-To: ' . $this->request->getPost('email') . ' ' .
         'X-Mailer: PHP/' . phpversion();
 
     mail('contact@saintlashes.com', $subject, $message, $headers);
@@ -41,7 +41,7 @@ class PagesController extends Controller {
     $this->view->title = 'Frequently Asked Questions';
   }
 
-  public function pricelistAction() {
+  public function servicesAction() {
 
     $this->view->title = 'Price List';
   }

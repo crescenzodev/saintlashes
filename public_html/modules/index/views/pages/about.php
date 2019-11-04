@@ -1,10 +1,7 @@
 <div class="container">
-  <h2>About</h2>
+  <h2>About Us</h2>
   <hr />
   <h3 class="my-2">Saint Studio</h3>
-  <p>
-    Our gorgeous studio will make you feel at ease, look at the pictures below to see it for yourself.
-  </p>
   <div id="slider">
     <div class="mx-auto">
       <img src="/public/images/slider/0.jpg" />
@@ -38,7 +35,7 @@
     </div>
   </div>
   <hr />
-  <h3 class="my-2">Who We Are</h3>
+  <h3 class="my-2">Why Saint Lashes?</h3>
   <p>
     Premium eyelash studio in Leicester. Come and relax in the luxury lash studio where you can unwind while a
     skilled and experienced technician will customise your eyelashes to the look that you desire.
