@@ -17,15 +17,15 @@
 
   <header>
     <div class="container-fluid">
-      <p class="m-0 p-0 font-italic">
+      <p class="m-0 p-0 font-italic"><strong>
         10% off for first time clients &bull;
         Refer a friend and get 15% off your next set &bull;
-        Loyalty cards available
+        Loyalty cards available</strong>
       </p>
-      <p class="my-1">
+      <p id="topLinks" class="my-1">
         <a href="<?= $this->url('main') ?>">Home</a> &vert;
         <a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a> &vert;
-        <a href="<?= $this->url('main', ['action' => 'services']) ?>">Services</a> &vert;
+        <a href="<?= $this->url('main', ['action' => 'treatmentMenu']) ?>">Treatment Menu</a> &vert;
         <a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a>
       </p>
     </div>
@@ -34,8 +34,8 @@
   <div id="header" class="container-fluid text-center">
 
     <a id="logo" href="<?= $this->url('main') ?>">
-<!--      <img class="img-fluid" src="/public/images/logo75.png" /><br />-->
-      SAINT<br /><span class="text-dark font-weight-light">LASHES</span>
+      <img class="" src="/public/images/logo.png" style="width: 20%;" /><br />
+<!--      SAINT<br /><span class="text-dark font-weight-light">LASHES</span>-->
     </a>
 
   </div>
@@ -52,15 +52,24 @@
         <div class="col-sm-4 text-center">
           <p>
             <a href="<?= $this->url('main', ['action' => 'about']) ?>">About</a> &vert;
-            <a href="<?= $this->url('main', ['action' => 'services']) ?>">Services</a> &vert;
+            <a href="<?= $this->url('main', ['action' => 'treatmentMenu']) ?>">Treatment Menu</a> &vert;
             <a href="<?= $this->url('main', ['action' => 'faq']) ?>">FAQ</a>
           </p>
+          <a href="https://www.visa.com/" target="_blank">
+            <img class="m-1" src="/public/images/mastercard-visa.png" width="" height="" alt="Accept Visa" />
+          </a>
+          <a href="https://www.babtac.com/" target="_blank">
+            <img class="m-1" src="/public/images/BABTAC.png" width="" height="" alt="BABTAC Insurance" />
+          </a>
+          <a href="https://www.peta.org/" target="_blank">
+            <img src="/public/images/petalogo.png" />
+          </a>
         </div>
         <div class="col-sm-4 text-center">
           <ul class="list-unstyled">
             <li>
               <a target="_blank" href="https://instagram.com/saintlashesuk">
-                <img src="/public/images/instagram.png" />
+                <img src="/public/images/instagram.png" width="50" height="50" />
               </a>
             </li>
           </ul>

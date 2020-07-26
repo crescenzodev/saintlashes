@@ -41,8 +41,8 @@ class PagesController extends Controller {
     $this->view->title = 'Frequently Asked Questions';
   }
 
-  public function servicesAction() {
+  public function treatmentMenuAction() {
 
-    $this->view->title = 'Price List';
+    $this->view->title = 'Treatment Menu';
   }
 }
