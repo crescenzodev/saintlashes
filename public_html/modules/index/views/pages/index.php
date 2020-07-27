@@ -3,7 +3,7 @@
     <div class="col">
       <strong>Covid 19 Client Protection</strong>
       <ol class="mt-4">
-        <li>Where a face mask on entrance.</li>
+        <li>Wear a face mask on entrance.</li>
         <li>Please come alone.</li>
         <li>Wash hands and apply hand sanitizer.</li>
         <li>Only bring essential personal belongings to your appointment.</li>
@@ -16,7 +16,7 @@
         <li>Hands are washed and sanitized before and after every client.</li>
         <li>A face mask is worn at all times in the studio.</li>
         <li>Gloves are used for cleaning, stock handling and cash payments.</li>
-        <li>All last technicians are in good health.</li>
+        <li>All lash technicians are in good health.</li>
       </ul>
     </div>
   </div>
