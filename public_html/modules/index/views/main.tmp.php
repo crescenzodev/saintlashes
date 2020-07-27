@@ -34,7 +34,7 @@
   <div id="header" class="container-fluid text-center">
 
     <a id="logo" href="<?= $this->url('main') ?>">
-      <img class="" src="/public/images/logo.png" style="width: 20%;" /><br />
+      <img class="" src="/public/images/logo.png" style="width: 35%;" /><br />
 <!--      SAINT<br /><span class="text-dark font-weight-light">LASHES</span>-->
     </a>
 
